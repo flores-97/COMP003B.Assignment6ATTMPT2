@@ -10,7 +10,7 @@ namespace COMP003B.Assignment6ATTMPT2.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-        public virtual ICollection<ActorMovie> ActorMovies { get; set; }
+        public virtual ICollection<ActorMovie>? ActorMovies { get; set; }
         public int Age { get; set; }//new addition
     }
 }
